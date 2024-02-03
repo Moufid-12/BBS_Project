@@ -37,8 +37,16 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    background-color: #ECC024;
+    border-color: #ECC024;
+    color: #1C67C1;
+    font-weight: bold;
 }
+
+/* .btn.btn-primary,
+.btn.btn-secondary:hover {
+    background-color: black;
+} */
 
 .btn-square {
     width: 38px;
@@ -71,6 +79,7 @@
 .nav-bar {
     position: relative;
     margin-top: 45px;
+    margin-bottom: 8em;
     padding: 0 3rem;
     transition: .5s;
     z-index: 9999;
@@ -113,11 +122,19 @@
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
 }
+/* @media (max-width: 991.98px) {
+    .nav-bar {
+        margin: 0;
+        padding: 0;
+       
+    } 
+    } */
 
 @media (max-width: 991.98px) {
     .nav-bar {
         margin: 0;
         padding: 0;
+        margin-bottom: 0;
     }
 
     .navbar-light .navbar-nav .nav-link  {
